@@ -1,0 +1,224 @@
+.main-heading-name {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -2px;
+    line-height: 26px;
+    color: #212121;
+}
+
+.main-heading-container {
+    position: relative;
+    min-height: 180px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 164px;
+    position: absolute;
+}
+
+.main-heading-front {
+    z-index: 1;
+    color: #212121;
+}
+
+.main-heading-back {
+    z-index: 0;
+    color: #6B6B6B;
+    top: -32px
+}
+
+.main-job-title {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #222222;
+    margin-bottom: 44px;
+}
+
+.main-selfie-container {
+    position: relative;
+    min-height: 176px;
+    margin-bottom: 90px
+}
+
+.main-selfie {
+    position: absolute;
+    margin: auto;
+    display: block;
+    width: 30%;
+    height:max-content;
+    border: none;
+    border-radius: 300px;
+    box-shadow: 0 0 0 4px #222222;
+    outline-color: transparent;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-slideshow {
+    position: absolute;
+    left: -500px;
+    right: -500px;
+    top: -10px;
+    z-index: 0;
+}
+
+.main-desc {
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #222222;
+    margin-bottom: 44px;
+}
+
+.rpg-framework-heading-container {
+    position: relative;
+    margin-bottom: 90px
+}
+
+.section-heading {
+    position: absolute;
+    text-align: center;
+    font-size: 72px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rpg-framework-heading-front {
+    z-index: 1;
+    color: #ffffff;
+}
+
+.rpg-framework-heading-back {
+    z-index: 0;
+    color: #000000;
+    top: 14px
+}
+
+.spritesheet-export-heading-front {
+    z-index: 1;
+    color: #ffffff;
+}
+
+.spritesheet-export-heading-back {
+    z-index: 0;
+    color: #000000;
+    top: 4px
+}
+
+.sql-petrimaps-heading-front {
+    z-index: 1;
+    color: #000000;
+}
+
+.sql-petrimaps-heading-back {
+    z-index: 0;
+    color: #adadad;
+    top: 4px
+}
+
+.godot-logo {
+    display: block;
+    width: 250px;
+    height: 100px;
+}
+
+.python-logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.cplusplus-logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.dr-nutman-heading-container {
+    position: relative;
+    margin-bottom: 30px
+}
+
+.dr-nutman-heading-front {
+    z-index: 1;
+    color: white;
+}
+
+.dr-nutman-heading-back {
+    z-index: 0;
+    color: black;
+    top: 14px
+}
+
+.desc-heading-white {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+.desc-text-white {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.desc-heading-black {
+    text-align: center;
+    font-size: 38px;
+    color: black;
+}
+
+.desc-text-black {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+
+.white-border {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.black-border {
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+/* Fonts */
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-mono-regular {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
