@@ -76,6 +76,37 @@
     margin-bottom: 44px;
 }
 
+.highlight-reel-heading {
+    position: absolute;
+    text-align: center;
+    font-size: 72px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.highlight-reel-heading-front {
+    z-index: 1;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    font-size: 72px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.highlight-reel-heading-back {
+    z-index: 0;
+    color: #000000;
+    position: absolute;
+    text-align: center;
+    font-size: 72px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -92%);
+}
+
 .rpg-framework-heading-container {
     position: relative;
     margin-bottom: 90px
